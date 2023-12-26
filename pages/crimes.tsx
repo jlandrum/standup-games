@@ -94,7 +94,7 @@ const Crimes = () => {
         <div className="w-screen h-screen flex justify-center items-center">
           <article className="w-[600px] max-h-[80%] rotate-3 min-h-[500px] shadow-neutral-800 shadow-xl bg-orange-100 bg-paper bg-cover flex items-center flex-col">
             <h1 className={`${font2.className} mt-8 opacity-60 text-xl scale-y-[180%]`}>Case Reports</h1>
-            <h2 className={`${font.className} mt-2 mb-8 opacity-60 text-sm scale-y-150`}>Yes& County Sheriff&apos;s Office</h2>
+            <h2 className={`${font.className} mt-2 mb-8 opacity-60 text-sm scale-y-150`}>County Sheriff&apos;s Office</h2>
             <div className="overflow-y-scroll">
             <table className="border-separate border-spacing-x-4 mx-2 border-spacing-y-1">
             { verdicts.map(it => (
