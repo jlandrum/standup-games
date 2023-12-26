@@ -3,7 +3,7 @@ import Link from "next/link";
 const Index = () => (
   <div className="flex flex-col m-8 gap-4">
     <h1 className="font-bold text-4xl">Standup Games</h1>
-    <Link href="/crimes">
+    <Link href="/color">
       <div className="hover:bg-neutral-200 p-2 rounded-md transition-colors">
         <strong><Link href="/color">Name the Color</Link></strong>
         <span className="inline-flex gap-1 mx-2">
